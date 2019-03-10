@@ -1,0 +1,82 @@
+2019/03/10 18:02:02 [error] 10#10: *8 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "GET /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test"
+2019/03/10 18:09:06 [error] 10#10: *11 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "GET /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test"
+2019/03/10 18:09:07 [error] 10#10: *11 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 3
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "GET /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test"
+2019/03/10 18:19:36 [error] 10#10: *45 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /var/www/web/http2.test/api.php on line 25" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "GET /api.php?url=https://yarmat.su HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test"
+2019/03/10 18:28:46 [error] 10#10: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 7: Failed to connect to localhost port 80: Connection refused (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in /var/www/web/http2.test/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:185
+Stack trace:
+#0 /var/www/web/http2.test/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/web/http2.test/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/web/http2.test/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/web/http2.test/vendor/guzzlehtt" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "GET /api.php?url=yarmat.su HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test"
+2019/03/10 19:06:30 [error] 10#10: *161 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:06:55 [error] 10#10: *163 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:07:10 [error] 10#10: *163 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:07:28 [error] 10#10: *166 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:09:18 [error] 10#10: *168 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:09:26 [error] 10#10: *168 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:09:27 [error] 10#10: *168 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:09:27 [error] 10#10: *168 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:09:52 [error] 10#10: *174 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:10:12 [error] 10#10: *177 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:10:16 [error] 10#10: *177 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:10:53 [error] 10#10: *181 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:00 [error] 10#10: *181 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:01 [error] 10#10: *181 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:01 [error] 10#10: *181 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:02 [error] 10#10: *181 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:02 [error] 10#10: *181 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:02 [error] 10#10: *181 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:03 [error] 10#10: *181 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:30 [error] 10#10: *190 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:31 [error] 10#10: *190 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
+2019/03/10 19:11:31 [error] 10#10: *190 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: url in /var/www/web/http2.test/api.php on line 6
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/web/http2.test/api.php:0" while reading response header from upstream, client: 172.22.0.1, server: http2.test, request: "POST /api.php HTTP/1.1", upstream: "fastcgi://172.22.0.5:9000", host: "http2.test", referrer: "http://http2.test/"
